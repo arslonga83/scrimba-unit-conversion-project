@@ -41,6 +41,11 @@ body {
   padding: 10px 20px;
 }
 
+#btn:hover {
+  cursor: pointer;
+  background: #B295FF;
+}
+
 #main {
   display: flex;
   flex-direction: column;
@@ -55,6 +60,7 @@ body {
   background: #273549;
   padding: 16px;
   width: 80%;
+  height: 95px;
 }
 
 .container h2 {
