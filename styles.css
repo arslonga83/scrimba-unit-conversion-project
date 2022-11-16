@@ -2,12 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
-  height: 100%;
+  height: 100vh;
+  text-align: center;
+  background: #1F2937;
 }
 
-body {
-  height: 100vh;
-}
 #hero {
   display: flex;
   flex-direction: column;
@@ -18,7 +17,7 @@ body {
   color: #FFFFFF;
 }
 
-#input {
+.input {
   border: 2px solid #B295FF;
   background: #6943FF;
   color: #FFFFFF;
@@ -26,11 +25,11 @@ body {
   text-align: center;
   font-size: 2.5rem;
   border-radius: 5px;
-  width: 80px;
-  height: 80px;
+  width: 85px;
+  height: 85px;
 }
 
-#btn {
+.btn {
   background: #FFFFFF;
   color: #3D3D3D;
   font-family: inherit;
@@ -41,7 +40,7 @@ body {
   padding: 10px 20px;
 }
 
-#btn:hover {
+.btn:hover {
   cursor: pointer;
   background: #B295FF;
 }
@@ -52,7 +51,7 @@ body {
   align-items: center;
   gap: 24px;
   padding: 48px;
-  background: #1F2937;
+  
 }
 
 .container {
@@ -60,7 +59,8 @@ body {
   background: #273549;
   padding: 16px;
   width: 80%;
-  height: 95px;
+  min-width:fit-content;
+  min-height: fit-content;
 }
 
 .container h2 {

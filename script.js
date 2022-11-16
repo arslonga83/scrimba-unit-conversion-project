@@ -1,12 +1,12 @@
 let input;
-const btn = document.querySelector('#btn');
+const btn = document.querySelector('.btn');
 const lengthConversion = document.querySelector('#length-conversion');
 const volumeConversion = document.querySelector('#volume-conversion');
 const massConversion = document.querySelector('#mass-conversion');
 let conversions = {};
 
 btn.addEventListener('click', () => {
-  input = document.querySelector('#input').value;
+  input = document.querySelector('.input').value;
   if (input) {
     convert();
     renderConversions();
